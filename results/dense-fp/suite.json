@@ -1,0 +1,907 @@
+{
+  "status": "success",
+  "config": {
+    "data": "$ORIGINAL_REPO/data/fashion-mnist",
+    "output": "$ORIGINAL_REPO/results/fp-fashion/20261016T023123Z-33526c7b",
+    "folds": "0,1,2,3,4",
+    "seed": 0,
+    "width": 1000,
+    "batch_size": 50,
+    "eval_batch": 4096,
+    "max_epochs": 100,
+    "patience": 5,
+    "lr": 0.001,
+    "min_fp_accuracy": 0.84,
+    "device": "cuda:0",
+    "max_seconds": 3600,
+    "host_limit_bytes": 12884901888,
+    "gpu_limit_bytes": 3221225472,
+    "artifact_limit_bytes": 3221225472,
+    "source_commit": "29ea819e1661db8d3e4e683fe0beec5ffb321fc7"
+  },
+  "folds": {
+    "0": {
+      "fp": {
+        "selected": {
+          "arm": "fp",
+          "fold": 0,
+          "epoch": 6.0,
+          "steps": 5778,
+          "training_examples": 288900,
+          "full_epoch": true,
+          "training_ce": 0.2578770358614461,
+          "validation": {
+            "ce": 0.3270322801292194,
+            "accuracy": 0.8865822784810126,
+            "macro_accuracy": 0.8873531805455933,
+            "examples": 11850
+          },
+          "test": {
+            "ce": 0.35411837158203124,
+            "accuracy": 0.8785000000000001,
+            "macro_accuracy": 0.8785000000000001,
+            "examples": 10000
+          },
+          "checkpoint": "step-005778.pt",
+          "cumulative_seconds": 15.656284202996176,
+          "selected_checkpoint": "step-005778.pt",
+          "selected_test": {
+            "ce": 0.35411837158203124,
+            "accuracy": 0.8785000000000001,
+            "macro_accuracy": 0.8785000000000001,
+            "examples": 10000
+          }
+        },
+        "initial": {
+          "arm": "fp",
+          "fold": 0,
+          "epoch": 0.0,
+          "steps": 0,
+          "training_examples": 0,
+          "full_epoch": false,
+          "training_ce": null,
+          "validation": {
+            "ce": 1.092188612539557,
+            "accuracy": 0.8751898734177215,
+            "macro_accuracy": 0.8761133946360968,
+            "examples": 11850
+          },
+          "test": {
+            "ce": 1.110619763183594,
+            "accuracy": 0.8632000000000001,
+            "macro_accuracy": 0.8632000000000002,
+            "examples": 10000
+          },
+          "checkpoint": "step-000000.pt",
+          "cumulative_seconds": 0.9880374320055125,
+          "selected_checkpoint": "step-000000.pt",
+          "selected_test": {
+            "ce": 1.110619763183594,
+            "accuracy": 0.8632000000000001,
+            "macro_accuracy": 0.8632000000000002,
+            "examples": 10000
+          }
+        },
+        "epochs": 11,
+        "fp": {
+          "seconds": 0.6415344949928112,
+          "layers": [
+            {
+              "layer": 1,
+              "penalty": 10.0,
+              "target_seconds": 0.23167045500304084,
+              "statistics_seconds": 0.06105657099396922,
+              "solve_seconds": 0.05925214600574691,
+              "stationarity_relative": 1.4340834013637505e-06,
+              "installation_max_abs": 4.708766937255859e-06,
+              "installation_propagation_seconds": 0.03266883299511392
+            },
+            {
+              "layer": 2,
+              "penalty": 10.0,
+              "target_seconds": 0.012204829006805085,
+              "statistics_seconds": 0.007723050002823584,
+              "solve_seconds": 0.0027099819999421015,
+              "stationarity_relative": 9.451878213440068e-07,
+              "installation_max_abs": 5.9604644775390625e-06,
+              "installation_propagation_seconds": 0.005463576002512127
+            },
+            {
+              "layer": 3,
+              "penalty": 10.0,
+              "target_seconds": 0.006863036003778689,
+              "statistics_seconds": 0.006145303006633185,
+              "solve_seconds": 0.002604905006592162,
+              "stationarity_relative": 8.442676175945962e-07,
+              "installation_max_abs": 5.4836273193359375e-06,
+              "installation_propagation_seconds": 0.00512916999286972
+            },
+            {
+              "layer": 4,
+              "penalty": 1.0,
+              "target_seconds": 0.005043704994022846,
+              "statistics_seconds": 0.0034469590027583763,
+              "solve_seconds": 0.003470941010164097,
+              "stationarity_relative": 4.12243480241159e-07,
+              "installation_max_abs": 3.5762786865234375e-07,
+              "installation_propagation_seconds": 0.00043050499516539276
+            }
+          ]
+        },
+        "total_seconds": 27.761303824998322
+      },
+      "random": {
+        "selected": {
+          "arm": "random",
+          "fold": 0,
+          "epoch": 7.0,
+          "steps": 6741,
+          "training_examples": 337050,
+          "full_epoch": true,
+          "training_ce": 0.26452653093006256,
+          "validation": {
+            "ce": 0.3016547583728903,
+            "accuracy": 0.890970464135021,
+            "macro_accuracy": 0.8920198007816759,
+            "examples": 11850
+          },
+          "test": {
+            "ce": 0.3357917663574219,
+            "accuracy": 0.8834000000000001,
+            "macro_accuracy": 0.8834,
+            "examples": 10000
+          },
+          "checkpoint": "step-006741.pt",
+          "cumulative_seconds": 17.362789598002564,
+          "selected_checkpoint": "step-006741.pt",
+          "selected_test": {
+            "ce": 0.3357917663574219,
+            "accuracy": 0.8834000000000001,
+            "macro_accuracy": 0.8834,
+            "examples": 10000
+          }
+        },
+        "initial": {
+          "arm": "random",
+          "fold": 0,
+          "epoch": 0.0,
+          "steps": 0,
+          "training_examples": 0,
+          "full_epoch": false,
+          "training_ce": null,
+          "validation": {
+            "ce": 2.30209421149789,
+            "accuracy": 0.10295358649789028,
+            "macro_accuracy": 0.10337558842439927,
+            "examples": 11850
+          },
+          "test": {
+            "ce": 2.3019296875,
+            "accuracy": 0.10250000000000001,
+            "macro_accuracy": 0.1025,
+            "examples": 10000
+          },
+          "checkpoint": "step-000000.pt",
+          "cumulative_seconds": 0.1248276749975048,
+          "selected_checkpoint": "step-000000.pt",
+          "selected_test": {
+            "ce": 2.3019296875,
+            "accuracy": 0.10250000000000001,
+            "macro_accuracy": 0.1025,
+            "examples": 10000
+          }
+        },
+        "epochs": 12,
+        "fp": null,
+        "total_seconds": 29.388152910993085
+      }
+    },
+    "1": {
+      "random": {
+        "selected": {
+          "arm": "random",
+          "fold": 1,
+          "epoch": 8.0,
+          "steps": 7680,
+          "training_examples": 383832,
+          "full_epoch": true,
+          "training_ce": 0.249622610354952,
+          "validation": {
+            "ce": 0.312417157506915,
+            "accuracy": 0.8884452208634889,
+            "macro_accuracy": 0.8880808034366727,
+            "examples": 12021
+          },
+          "test": {
+            "ce": 0.3378223449707031,
+            "accuracy": 0.8805000000000001,
+            "macro_accuracy": 0.8805000000000001,
+            "examples": 10000
+          },
+          "checkpoint": "step-007680.pt",
+          "cumulative_seconds": 19.956427324999822,
+          "selected_checkpoint": "step-007680.pt",
+          "selected_test": {
+            "ce": 0.3378223449707031,
+            "accuracy": 0.8805000000000001,
+            "macro_accuracy": 0.8805000000000001,
+            "examples": 10000
+          }
+        },
+        "initial": {
+          "arm": "random",
+          "fold": 1,
+          "epoch": 0.0,
+          "steps": 0,
+          "training_examples": 0,
+          "full_epoch": false,
+          "training_ce": null,
+          "validation": {
+            "ce": 2.303343660313202,
+            "accuracy": 0.10198818733882373,
+            "macro_accuracy": 0.09928475033738192,
+            "examples": 12021
+          },
+          "test": {
+            "ce": 2.30343056640625,
+            "accuracy": 0.1,
+            "macro_accuracy": 0.1,
+            "examples": 10000
+          },
+          "checkpoint": "step-000000.pt",
+          "cumulative_seconds": 0.13518459600163624,
+          "selected_checkpoint": "step-000000.pt",
+          "selected_test": {
+            "ce": 2.30343056640625,
+            "accuracy": 0.1,
+            "macro_accuracy": 0.1,
+            "examples": 10000
+          }
+        },
+        "epochs": 13,
+        "fp": null,
+        "total_seconds": 32.088315290995524
+      },
+      "fp": {
+        "selected": {
+          "arm": "fp",
+          "fold": 1,
+          "epoch": 6.0,
+          "steps": 5760,
+          "training_examples": 287874,
+          "full_epoch": true,
+          "training_ce": 0.25387993953300125,
+          "validation": {
+            "ce": 0.3186599151354921,
+            "accuracy": 0.8869478412777639,
+            "macro_accuracy": 0.8866033003912919,
+            "examples": 12021
+          },
+          "test": {
+            "ce": 0.34499555664062503,
+            "accuracy": 0.8801,
+            "macro_accuracy": 0.8801000000000001,
+            "examples": 10000
+          },
+          "checkpoint": "step-005760.pt",
+          "cumulative_seconds": 15.452327228995273,
+          "selected_checkpoint": "step-005760.pt",
+          "selected_test": {
+            "ce": 0.34499555664062503,
+            "accuracy": 0.8801,
+            "macro_accuracy": 0.8801000000000001,
+            "examples": 10000
+          }
+        },
+        "initial": {
+          "arm": "fp",
+          "fold": 1,
+          "epoch": 0.0,
+          "steps": 0,
+          "training_examples": 0,
+          "full_epoch": false,
+          "training_ce": null,
+          "validation": {
+            "ce": 1.0968065000831877,
+            "accuracy": 0.8695616005324016,
+            "macro_accuracy": 0.8688648963890891,
+            "examples": 12021
+          },
+          "test": {
+            "ce": 1.110629931640625,
+            "accuracy": 0.862,
+            "macro_accuracy": 0.862,
+            "examples": 10000
+          },
+          "checkpoint": "step-000000.pt",
+          "cumulative_seconds": 0.3669024359987816,
+          "selected_checkpoint": "step-000000.pt",
+          "selected_test": {
+            "ce": 1.110629931640625,
+            "accuracy": 0.862,
+            "macro_accuracy": 0.862,
+            "examples": 10000
+          }
+        },
+        "epochs": 11,
+        "fp": {
+          "seconds": 0.17552160800551064,
+          "layers": [
+            {
+              "layer": 1,
+              "penalty": 10.0,
+              "target_seconds": 0.014785484003368765,
+              "statistics_seconds": 0.015312169009121135,
+              "solve_seconds": 0.004880464999587275,
+              "stationarity_relative": 1.4990381487223203e-06,
+              "installation_max_abs": 4.76837158203125e-06,
+              "installation_propagation_seconds": 0.01006519899237901
+            },
+            {
+              "layer": 2,
+              "penalty": 10.0,
+              "target_seconds": 0.01709686500544194,
+              "statistics_seconds": 0.017934645002242178,
+              "solve_seconds": 0.006044813999324106,
+              "stationarity_relative": 1.0612229743856005e-06,
+              "installation_max_abs": 4.5299530029296875e-06,
+              "installation_propagation_seconds": 0.012793145011528395
+            },
+            {
+              "layer": 3,
+              "penalty": 10.0,
+              "target_seconds": 0.01689922099467367,
+              "statistics_seconds": 0.017826612005592324,
+              "solve_seconds": 0.006100544997025281,
+              "stationarity_relative": 7.983870204952837e-07,
+              "installation_max_abs": 4.291534423828125e-06,
+              "installation_propagation_seconds": 0.014290920997154899
+            },
+            {
+              "layer": 4,
+              "penalty": 1.0,
+              "target_seconds": 0.0016733319935156032,
+              "statistics_seconds": 0.00984884100034833,
+              "solve_seconds": 0.005254144009086303,
+              "stationarity_relative": 4.056801685692335e-07,
+              "installation_max_abs": 3.5762786865234375e-07,
+              "installation_propagation_seconds": 0.0004026140086352825
+            }
+          ]
+        },
+        "total_seconds": 27.371817557999748
+      }
+    },
+    "2": {
+      "fp": {
+        "selected": {
+          "arm": "fp",
+          "fold": 2,
+          "epoch": 4.0,
+          "steps": 3844,
+          "training_examples": 192084,
+          "full_epoch": true,
+          "training_ce": 0.2911907604687569,
+          "validation": {
+            "ce": 0.333289249839563,
+            "accuracy": 0.8782870022539444,
+            "macro_accuracy": 0.8782801408710506,
+            "examples": 11979
+          },
+          "test": {
+            "ce": 0.3512183837890625,
+            "accuracy": 0.8725,
+            "macro_accuracy": 0.8725,
+            "examples": 10000
+          },
+          "checkpoint": "step-003844.pt",
+          "cumulative_seconds": 10.552055248001125,
+          "selected_checkpoint": "step-003844.pt",
+          "selected_test": {
+            "ce": 0.3512183837890625,
+            "accuracy": 0.8725,
+            "macro_accuracy": 0.8725,
+            "examples": 10000
+          }
+        },
+        "initial": {
+          "arm": "fp",
+          "fold": 2,
+          "epoch": 0.0,
+          "steps": 0,
+          "training_examples": 0,
+          "full_epoch": false,
+          "training_ce": null,
+          "validation": {
+            "ce": 1.0974119259485349,
+            "accuracy": 0.8691877452208031,
+            "macro_accuracy": 0.8692361090682367,
+            "examples": 11979
+          },
+          "test": {
+            "ce": 1.1122860717773437,
+            "accuracy": 0.8616,
+            "macro_accuracy": 0.8616,
+            "examples": 10000
+          },
+          "checkpoint": "step-000000.pt",
+          "cumulative_seconds": 0.35981422099575866,
+          "selected_checkpoint": "step-000000.pt",
+          "selected_test": {
+            "ce": 1.1122860717773437,
+            "accuracy": 0.8616,
+            "macro_accuracy": 0.8616,
+            "examples": 10000
+          }
+        },
+        "epochs": 9,
+        "fp": {
+          "seconds": 0.17201580399705563,
+          "layers": [
+            {
+              "layer": 1,
+              "penalty": 10.0,
+              "target_seconds": 0.013732332998188213,
+              "statistics_seconds": 0.014400343003217131,
+              "solve_seconds": 0.005197759004659019,
+              "stationarity_relative": 1.4965926311560906e-06,
+              "installation_max_abs": 4.589557647705078e-06,
+              "installation_propagation_seconds": 0.010287740005878732
+            },
+            {
+              "layer": 2,
+              "penalty": 10.0,
+              "target_seconds": 0.016736596007831395,
+              "statistics_seconds": 0.017690431006485596,
+              "solve_seconds": 0.006220974013558589,
+              "stationarity_relative": 9.568622090228018e-07,
+              "installation_max_abs": 4.76837158203125e-06,
+              "installation_propagation_seconds": 0.012009429992758669
+            },
+            {
+              "layer": 3,
+              "penalty": 10.0,
+              "target_seconds": 0.015847636997932568,
+              "statistics_seconds": 0.01776214000710752,
+              "solve_seconds": 0.005999558998155408,
+              "stationarity_relative": 7.888756385909801e-07,
+              "installation_max_abs": 4.172325134277344e-06,
+              "installation_propagation_seconds": 0.012938917992869392
+            },
+            {
+              "layer": 4,
+              "penalty": 1.0,
+              "target_seconds": 0.0016791829984867945,
+              "statistics_seconds": 0.01102167900535278,
+              "solve_seconds": 0.005195108999032527,
+              "stationarity_relative": 4.6029663280933164e-07,
+              "installation_max_abs": 4.76837158203125e-07,
+              "installation_propagation_seconds": 0.0005806769913760945
+            }
+          ]
+        },
+        "total_seconds": 22.855291735002538
+      },
+      "random": {
+        "selected": {
+          "arm": "random",
+          "fold": 2,
+          "epoch": 10.0,
+          "steps": 9610,
+          "training_examples": 480210,
+          "full_epoch": true,
+          "training_ce": 0.234241026182952,
+          "validation": {
+            "ce": 0.31573695740005947,
+            "accuracy": 0.8943150513398448,
+            "macro_accuracy": 0.8943422399244302,
+            "examples": 11979
+          },
+          "test": {
+            "ce": 0.3418114990234375,
+            "accuracy": 0.884,
+            "macro_accuracy": 0.884,
+            "examples": 10000
+          },
+          "checkpoint": "step-009610.pt",
+          "cumulative_seconds": 24.62972228199942,
+          "selected_checkpoint": "step-009610.pt",
+          "selected_test": {
+            "ce": 0.3418114990234375,
+            "accuracy": 0.884,
+            "macro_accuracy": 0.884,
+            "examples": 10000
+          }
+        },
+        "initial": {
+          "arm": "random",
+          "fold": 2,
+          "epoch": 0.0,
+          "steps": 0,
+          "training_examples": 0,
+          "full_epoch": false,
+          "training_ce": null,
+          "validation": {
+            "ce": 2.3029404648238585,
+            "accuracy": 0.12037732698889723,
+            "macro_accuracy": 0.11822502828015756,
+            "examples": 11979
+          },
+          "test": {
+            "ce": 2.30323759765625,
+            "accuracy": 0.1197,
+            "macro_accuracy": 0.11970000000000001,
+            "examples": 10000
+          },
+          "checkpoint": "step-000000.pt",
+          "cumulative_seconds": 0.12180183299642522,
+          "selected_checkpoint": "step-000000.pt",
+          "selected_test": {
+            "ce": 2.30323759765625,
+            "accuracy": 0.1197,
+            "macro_accuracy": 0.11970000000000001,
+            "examples": 10000
+          }
+        },
+        "epochs": 15,
+        "fp": null,
+        "total_seconds": 36.43920163900475
+      }
+    },
+    "3": {
+      "random": {
+        "selected": {
+          "arm": "random",
+          "fold": 3,
+          "epoch": 7.0,
+          "steps": 6692,
+          "training_examples": 334467,
+          "full_epoch": true,
+          "training_ce": 0.2649027220316184,
+          "validation": {
+            "ce": 0.2997922297146094,
+            "accuracy": 0.895981667894263,
+            "macro_accuracy": 0.8964600819891608,
+            "examples": 12219
+          },
+          "test": {
+            "ce": 0.33454196777343753,
+            "accuracy": 0.8806,
+            "macro_accuracy": 0.8806000000000002,
+            "examples": 10000
+          },
+          "checkpoint": "step-006692.pt",
+          "cumulative_seconds": 17.848035939008696,
+          "selected_checkpoint": "step-006692.pt",
+          "selected_test": {
+            "ce": 0.33454196777343753,
+            "accuracy": 0.8806,
+            "macro_accuracy": 0.8806000000000002,
+            "examples": 10000
+          }
+        },
+        "initial": {
+          "arm": "random",
+          "fold": 3,
+          "epoch": 0.0,
+          "steps": 0,
+          "training_examples": 0,
+          "full_epoch": false,
+          "training_ce": null,
+          "validation": {
+            "ce": 2.300448616140846,
+            "accuracy": 0.10540960798756036,
+            "macro_accuracy": 0.10438221092303988,
+            "examples": 12219
+          },
+          "test": {
+            "ce": 2.3005563476562503,
+            "accuracy": 0.10600000000000001,
+            "macro_accuracy": 0.10600000000000001,
+            "examples": 10000
+          },
+          "checkpoint": "step-000000.pt",
+          "cumulative_seconds": 0.12097418800112791,
+          "selected_checkpoint": "step-000000.pt",
+          "selected_test": {
+            "ce": 2.3005563476562503,
+            "accuracy": 0.10600000000000001,
+            "macro_accuracy": 0.10600000000000001,
+            "examples": 10000
+          }
+        },
+        "epochs": 12,
+        "fp": null,
+        "total_seconds": 29.81351033100509
+      },
+      "fp": {
+        "selected": {
+          "arm": "fp",
+          "fold": 3,
+          "epoch": 3.0,
+          "steps": 2868,
+          "training_examples": 143343,
+          "full_epoch": true,
+          "training_ce": 0.31865302919100275,
+          "validation": {
+            "ce": 0.3178881869904196,
+            "accuracy": 0.8851788198706931,
+            "macro_accuracy": 0.8856789273879806,
+            "examples": 12219
+          },
+          "test": {
+            "ce": 0.35450823974609375,
+            "accuracy": 0.8725,
+            "macro_accuracy": 0.8725,
+            "examples": 10000
+          },
+          "checkpoint": "step-002868.pt",
+          "cumulative_seconds": 8.074743643999682,
+          "selected_checkpoint": "step-002868.pt",
+          "selected_test": {
+            "ce": 0.35450823974609375,
+            "accuracy": 0.8725,
+            "macro_accuracy": 0.8725,
+            "examples": 10000
+          }
+        },
+        "initial": {
+          "arm": "fp",
+          "fold": 3,
+          "epoch": 0.0,
+          "steps": 0,
+          "training_examples": 0,
+          "full_epoch": false,
+          "training_ce": null,
+          "validation": {
+            "ce": 1.089647822103384,
+            "accuracy": 0.8745396513626319,
+            "macro_accuracy": 0.8750423295537385,
+            "examples": 12219
+          },
+          "test": {
+            "ce": 1.1092436279296876,
+            "accuracy": 0.8627,
+            "macro_accuracy": 0.8627000000000001,
+            "examples": 10000
+          },
+          "checkpoint": "step-000000.pt",
+          "cumulative_seconds": 0.3474259840004379,
+          "selected_checkpoint": "step-000000.pt",
+          "selected_test": {
+            "ce": 1.1092436279296876,
+            "accuracy": 0.8627,
+            "macro_accuracy": 0.8627000000000001,
+            "examples": 10000
+          }
+        },
+        "epochs": 8,
+        "fp": {
+          "seconds": 0.16899375199864153,
+          "layers": [
+            {
+              "layer": 1,
+              "penalty": 10.0,
+              "target_seconds": 0.013912237001932226,
+              "statistics_seconds": 0.01504723000107333,
+              "solve_seconds": 0.005639873998006806,
+              "stationarity_relative": 1.4538726418322767e-06,
+              "installation_max_abs": 4.76837158203125e-06,
+              "installation_propagation_seconds": 0.010526221987674944
+            },
+            {
+              "layer": 2,
+              "penalty": 10.0,
+              "target_seconds": 0.016544277998036705,
+              "statistics_seconds": 0.01816767398850061,
+              "solve_seconds": 0.006219943999894895,
+              "stationarity_relative": 9.528164355288027e-07,
+              "installation_max_abs": 5.245208740234375e-06,
+              "installation_propagation_seconds": 0.013301444007083774
+            },
+            {
+              "layer": 3,
+              "penalty": 10.0,
+              "target_seconds": 0.01656989401089959,
+              "statistics_seconds": 0.01849896600469947,
+              "solve_seconds": 0.006079849001253024,
+              "stationarity_relative": 8.299650744447717e-07,
+              "installation_max_abs": 3.6954879760742188e-06,
+              "installation_propagation_seconds": 0.01293097400048282
+            },
+            {
+              "layer": 4,
+              "penalty": 1.0,
+              "target_seconds": 0.0016202240076381713,
+              "statistics_seconds": 0.00572936498792842,
+              "solve_seconds": 0.003252917987992987,
+              "stationarity_relative": 4.032135905163159e-07,
+              "installation_max_abs": 3.5762786865234375e-07,
+              "installation_propagation_seconds": 0.0003681189991766587
+            }
+          ]
+        },
+        "total_seconds": 19.245778587006498
+      }
+    },
+    "4": {
+      "fp": {
+        "selected": {
+          "arm": "fp",
+          "fold": 4,
+          "epoch": 8.0,
+          "steps": 7696,
+          "training_examples": 384552,
+          "full_epoch": true,
+          "training_ce": 0.23210663424757183,
+          "validation": {
+            "ce": 0.32239460147802995,
+            "accuracy": 0.8832453272986338,
+            "macro_accuracy": 0.8826924479259853,
+            "examples": 11931
+          },
+          "test": {
+            "ce": 0.3565314392089844,
+            "accuracy": 0.8735,
+            "macro_accuracy": 0.8734999999999999,
+            "examples": 10000
+          },
+          "checkpoint": "step-007696.pt",
+          "cumulative_seconds": 19.470261898997705,
+          "selected_checkpoint": "step-007696.pt",
+          "selected_test": {
+            "ce": 0.3565314392089844,
+            "accuracy": 0.8735,
+            "macro_accuracy": 0.8734999999999999,
+            "examples": 10000
+          }
+        },
+        "initial": {
+          "arm": "fp",
+          "fold": 4,
+          "epoch": 0.0,
+          "steps": 0,
+          "training_examples": 0,
+          "full_epoch": false,
+          "training_ce": null,
+          "validation": {
+            "ce": 1.0924707735167316,
+            "accuracy": 0.8716788198809823,
+            "macro_accuracy": 0.8707998139576498,
+            "examples": 11931
+          },
+          "test": {
+            "ce": 1.1083577026367188,
+            "accuracy": 0.8645,
+            "macro_accuracy": 0.8645,
+            "examples": 10000
+          },
+          "checkpoint": "step-000000.pt",
+          "cumulative_seconds": 0.37369751700316556,
+          "selected_checkpoint": "step-000000.pt",
+          "selected_test": {
+            "ce": 1.1083577026367188,
+            "accuracy": 0.8645,
+            "macro_accuracy": 0.8645,
+            "examples": 10000
+          }
+        },
+        "epochs": 13,
+        "fp": {
+          "seconds": 0.18331260400009342,
+          "layers": [
+            {
+              "layer": 1,
+              "penalty": 10.0,
+              "target_seconds": 0.01500138800474815,
+              "statistics_seconds": 0.017311172996414825,
+              "solve_seconds": 0.00545643299119547,
+              "stationarity_relative": 1.5057546534080757e-06,
+              "installation_max_abs": 4.5299530029296875e-06,
+              "installation_propagation_seconds": 0.011376783993910067
+            },
+            {
+              "layer": 2,
+              "penalty": 10.0,
+              "target_seconds": 0.017246681003598496,
+              "statistics_seconds": 0.02068429600331001,
+              "solve_seconds": 0.006667499998002313,
+              "stationarity_relative": 9.848209856500034e-07,
+              "installation_max_abs": 5.4836273193359375e-06,
+              "installation_propagation_seconds": 0.012797829011105932
+            },
+            {
+              "layer": 3,
+              "penalty": 10.0,
+              "target_seconds": 0.017638630990404636,
+              "statistics_seconds": 0.018645925010787323,
+              "solve_seconds": 0.006056294994778,
+              "stationarity_relative": 8.658869319333462e-07,
+              "installation_max_abs": 4.172325134277344e-06,
+              "installation_propagation_seconds": 0.012566289995447733
+            },
+            {
+              "layer": 4,
+              "penalty": 1.0,
+              "target_seconds": 0.001596647998667322,
+              "statistics_seconds": 0.009763701003976166,
+              "solve_seconds": 0.005856732008396648,
+              "stationarity_relative": 4.000159492534294e-07,
+              "installation_max_abs": 3.5762786865234375e-07,
+              "installation_propagation_seconds": 0.0006250300066312775
+            }
+          ]
+        },
+        "total_seconds": 31.632177393999882
+      },
+      "random": {
+        "selected": {
+          "arm": "random",
+          "fold": 4,
+          "epoch": 6.0,
+          "steps": 5772,
+          "training_examples": 288414,
+          "full_epoch": true,
+          "training_ce": 0.2786937858922156,
+          "validation": {
+            "ce": 0.3193989728864146,
+            "accuracy": 0.8874360908557539,
+            "macro_accuracy": 0.8864696221080548,
+            "examples": 11931
+          },
+          "test": {
+            "ce": 0.3479450927734375,
+            "accuracy": 0.8814000000000001,
+            "macro_accuracy": 0.8814000000000001,
+            "examples": 10000
+          },
+          "checkpoint": "step-005772.pt",
+          "cumulative_seconds": 15.118459585006349,
+          "selected_checkpoint": "step-005772.pt",
+          "selected_test": {
+            "ce": 0.3479450927734375,
+            "accuracy": 0.8814000000000001,
+            "macro_accuracy": 0.8814000000000001,
+            "examples": 10000
+          }
+        },
+        "initial": {
+          "arm": "random",
+          "fold": 4,
+          "epoch": 0.0,
+          "steps": 0,
+          "training_examples": 0,
+          "full_epoch": false,
+          "training_ce": null,
+          "validation": {
+            "ce": 2.3066169701041406,
+            "accuracy": 0.03285558628782164,
+            "macro_accuracy": 0.03286418794838637,
+            "examples": 11931
+          },
+          "test": {
+            "ce": 2.3067198242187503,
+            "accuracy": 0.0346,
+            "macro_accuracy": 0.034600000000000006,
+            "examples": 10000
+          },
+          "checkpoint": "step-000000.pt",
+          "cumulative_seconds": 0.13088728600996546,
+          "selected_checkpoint": "step-000000.pt",
+          "selected_test": {
+            "ce": 2.3067198242187503,
+            "accuracy": 0.0346,
+            "macro_accuracy": 0.034600000000000006,
+            "examples": 10000
+          }
+        },
+        "epochs": 11,
+        "fp": null,
+        "total_seconds": 26.813465950006503
+      }
+    }
+  },
+  "startup_seconds": 26.2959200960031,
+  "data_seconds": 8.726101438995101,
+  "wall_seconds": 322.1179480019928
+}

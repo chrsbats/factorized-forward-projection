@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Factorized Forward Projection: Fashion-MNIST replication and reduced-rank extension"
+message: "If you use this code, please cite the original Forward Projection paper and this repository."
+type: software
+license: MIT
+repository-code: "https://github.com/chrsbats/factorized-forward-projection"
+authors:
+  - family-names: "Bates"
+    given-names: "Chris"
+references:
+  - type: article
+    title: "Closed-form feedback-free learning with forward projection"
+    authors:
+      - family-names: "O'Shea"
+        given-names: "Robert"
+      - family-names: "Rajendran"
+        given-names: "Bipin"
+    journal: "Nature Communications"
+    volume: 17
+    start: 2414
+    year: 2026
+    doi: "10.1038/s41467-026-69161-1"

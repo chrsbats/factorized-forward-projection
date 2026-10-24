@@ -1,0 +1,812 @@
+{
+  "pass": true,
+  "folds": {
+    "0": {
+      "dense": {
+        "archived_weight_max_abs": 0.0
+      },
+      "rank-64": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 9.068784103138423e-11,
+            "projected_gradient_relative": 2.4033684070476994e-06,
+            "bias_stationarity_relative": 1.344128081119533e-08,
+            "covariance_min_eigenvalue": 0.0002077523321132221,
+            "covariance_condition_number": 95245.64790344595,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.06644892098217696
+          },
+          {
+            "spectral_optimality_relative": 5.042245903168697e-09,
+            "projected_gradient_relative": 2.224670180838287e-06,
+            "bias_stationarity_relative": 1.6802522931560947e-08,
+            "covariance_min_eigenvalue": 0.00022418171267809885,
+            "covariance_condition_number": 224944.93660321634,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.05100244631859235
+          },
+          {
+            "spectral_optimality_relative": 3.739652274633576e-09,
+            "projected_gradient_relative": 1.7288291418157592e-06,
+            "bias_stationarity_relative": 1.062508363977882e-08,
+            "covariance_min_eigenvalue": 0.00024115558436105093,
+            "covariance_condition_number": 215060.83753730202,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.042664325155856525
+          },
+          {
+            "normal_equation_relative": 5.034224690332795e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-128": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 1.1889781568243909e-10,
+            "projected_gradient_relative": 2.466210822125359e-06,
+            "bias_stationarity_relative": 1.341296202419235e-08,
+            "covariance_min_eigenvalue": 0.0002077523321132221,
+            "covariance_condition_number": 95245.64790344595,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.03448622915788163
+          },
+          {
+            "spectral_optimality_relative": 2.9538298454769515e-09,
+            "projected_gradient_relative": 2.3178348916244934e-06,
+            "bias_stationarity_relative": 1.865003010104302e-08,
+            "covariance_min_eigenvalue": 0.0002196103265909778,
+            "covariance_condition_number": 228715.68463995642,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.031169201441824616
+          },
+          {
+            "spectral_optimality_relative": 2.1620038015067787e-09,
+            "projected_gradient_relative": 1.814122973867322e-06,
+            "bias_stationarity_relative": 1.1477997927279946e-08,
+            "covariance_min_eigenvalue": 0.00027594869855298486,
+            "covariance_condition_number": 184064.68884201668,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.02635813775274353
+          },
+          {
+            "normal_equation_relative": 4.419606210638966e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-256": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 1.6532861699383134e-10,
+            "projected_gradient_relative": 2.6355860612879907e-06,
+            "bias_stationarity_relative": 1.4762908036560035e-08,
+            "covariance_min_eigenvalue": 0.0002077523321132221,
+            "covariance_condition_number": 95245.64790344595,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.011515178467225414
+          },
+          {
+            "spectral_optimality_relative": 1.920372583936847e-09,
+            "projected_gradient_relative": 2.7722975396797865e-06,
+            "bias_stationarity_relative": 1.3223248612428541e-08,
+            "covariance_min_eigenvalue": 0.00022094095021328526,
+            "covariance_condition_number": 226734.50944749327,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.01420475110009201
+          },
+          {
+            "spectral_optimality_relative": 1.4175268617914127e-09,
+            "projected_gradient_relative": 2.2385307785681345e-06,
+            "bias_stationarity_relative": 1.0072333705216965e-08,
+            "covariance_min_eigenvalue": 0.0003072023401416144,
+            "covariance_condition_number": 162761.21301046477,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.012247828197880107
+          },
+          {
+            "normal_equation_relative": 4.3885891785429053e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-512": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 2.188708864332554e-10,
+            "projected_gradient_relative": 2.977566978476985e-06,
+            "bias_stationarity_relative": 1.596917061370934e-08,
+            "covariance_min_eigenvalue": 0.0002077523321132221,
+            "covariance_condition_number": 95245.64790344595,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0009975193407950917
+          },
+          {
+            "spectral_optimality_relative": 1.1192861997138338e-09,
+            "projected_gradient_relative": 3.118349547041717e-06,
+            "bias_stationarity_relative": 1.2848291418137492e-08,
+            "covariance_min_eigenvalue": 0.0002180038545308204,
+            "covariance_condition_number": 229478.9487226721,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0025715270819047023
+          },
+          {
+            "spectral_optimality_relative": 1.090296029033426e-09,
+            "projected_gradient_relative": 2.8899036233433746e-06,
+            "bias_stationarity_relative": 1.090264957006851e-08,
+            "covariance_min_eigenvalue": 0.00032303848066010454,
+            "covariance_condition_number": 153454.53891192866,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0023484083961038825
+          },
+          {
+            "normal_equation_relative": 3.8862860810561663e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "adamw": {
+        "snapshots": 19,
+        "protocol": "pass"
+      }
+    },
+    "1": {
+      "rank-64": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 8.802456449735706e-11,
+            "projected_gradient_relative": 2.180390256020783e-06,
+            "bias_stationarity_relative": 1.4382834105854949e-08,
+            "covariance_min_eigenvalue": 0.000208505683365574,
+            "covariance_condition_number": 95184.91311144199,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.06412195613238701
+          },
+          {
+            "spectral_optimality_relative": 5.083483148122015e-09,
+            "projected_gradient_relative": 2.3046713977290582e-06,
+            "bias_stationarity_relative": 1.4747284004711724e-08,
+            "covariance_min_eigenvalue": 0.00022225912249125215,
+            "covariance_condition_number": 231860.54713869453,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.051951816237303446
+          },
+          {
+            "spectral_optimality_relative": 3.1041416755269295e-09,
+            "projected_gradient_relative": 1.5147443779514702e-06,
+            "bias_stationarity_relative": 9.217772585800396e-09,
+            "covariance_min_eigenvalue": 0.00024240338200192052,
+            "covariance_condition_number": 209071.2567034305,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.04346096286092036
+          },
+          {
+            "normal_equation_relative": 5.159151360302671e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-128": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 1.165686589742967e-10,
+            "projected_gradient_relative": 2.2473452256091557e-06,
+            "bias_stationarity_relative": 1.4439396408519916e-08,
+            "covariance_min_eigenvalue": 0.000208505683365574,
+            "covariance_condition_number": 95184.91311144199,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.0331758362272251
+          },
+          {
+            "spectral_optimality_relative": 2.995648497831957e-09,
+            "projected_gradient_relative": 2.377650354950896e-06,
+            "bias_stationarity_relative": 1.4671226692965953e-08,
+            "covariance_min_eigenvalue": 0.00023546297455883638,
+            "covariance_condition_number": 218268.0905132647,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.03189546397231744
+          },
+          {
+            "spectral_optimality_relative": 1.8202939555040322e-09,
+            "projected_gradient_relative": 1.7111841364245285e-06,
+            "bias_stationarity_relative": 1.0090059138599585e-08,
+            "covariance_min_eigenvalue": 0.00027796588421094825,
+            "covariance_condition_number": 178284.4891661615,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.026945381213101492
+          },
+          {
+            "normal_equation_relative": 4.1324161700767756e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-256": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 1.6365752575850895e-10,
+            "projected_gradient_relative": 2.42578482492637e-06,
+            "bias_stationarity_relative": 1.394828450011307e-08,
+            "covariance_min_eigenvalue": 0.000208505683365574,
+            "covariance_condition_number": 95184.91311144199,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.01098169730954439
+          },
+          {
+            "spectral_optimality_relative": 1.9167710458980094e-09,
+            "projected_gradient_relative": 2.636779505905815e-06,
+            "bias_stationarity_relative": 1.4555228392332335e-08,
+            "covariance_min_eigenvalue": 0.00024759855151649336,
+            "covariance_condition_number": 207131.84717050358,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.014454799506939469
+          },
+          {
+            "spectral_optimality_relative": 1.1546505850621318e-09,
+            "projected_gradient_relative": 2.132677673183944e-06,
+            "bias_stationarity_relative": 1.1310248959709362e-08,
+            "covariance_min_eigenvalue": 0.00031642902183260003,
+            "covariance_condition_number": 154367.88349169507,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.012578262928352058
+          },
+          {
+            "normal_equation_relative": 4.059943260941283e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-512": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 2.167721690240441e-10,
+            "projected_gradient_relative": 2.7767059174429997e-06,
+            "bias_stationarity_relative": 1.5973066945512764e-08,
+            "covariance_min_eigenvalue": 0.000208505683365574,
+            "covariance_condition_number": 95184.91311144199,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0009315439654437978
+          },
+          {
+            "spectral_optimality_relative": 1.3434685115269333e-09,
+            "projected_gradient_relative": 3.3015386572480845e-06,
+            "bias_stationarity_relative": 1.4354153817336506e-08,
+            "covariance_min_eigenvalue": 0.00026476496957415096,
+            "covariance_condition_number": 193498.67015676212,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.002560772062432518
+          },
+          {
+            "spectral_optimality_relative": 9.037995519483785e-10,
+            "projected_gradient_relative": 2.7020602118604577e-06,
+            "bias_stationarity_relative": 1.1379115188611438e-08,
+            "covariance_min_eigenvalue": 0.0003807242751622171,
+            "covariance_condition_number": 127353.16197768503,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.002414852432786031
+          },
+          {
+            "normal_equation_relative": 3.7830136216576626e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "adamw": {
+        "snapshots": 18,
+        "protocol": "pass"
+      },
+      "dense": {
+        "archived_weight_max_abs": 0.0
+      }
+    },
+    "2": {
+      "rank-128": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 1.1334760957386319e-10,
+            "projected_gradient_relative": 2.4415688061786826e-06,
+            "bias_stationarity_relative": 1.367051293083595e-08,
+            "covariance_min_eigenvalue": 0.0002083363484576687,
+            "covariance_condition_number": 95405.6880574351,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.0339797334129939
+          },
+          {
+            "spectral_optimality_relative": 3.0351746669713306e-09,
+            "projected_gradient_relative": 2.4082551413289555e-06,
+            "bias_stationarity_relative": 1.2515919340417456e-08,
+            "covariance_min_eigenvalue": 0.0002703319727265237,
+            "covariance_condition_number": 201241.425250625,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.031063789878088537
+          },
+          {
+            "spectral_optimality_relative": 2.391531310720537e-09,
+            "projected_gradient_relative": 1.8950221973387099e-06,
+            "bias_stationarity_relative": 1.1914727583289938e-08,
+            "covariance_min_eigenvalue": 0.00020824222735887264,
+            "covariance_condition_number": 260982.96667187786,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.02679723831740457
+          },
+          {
+            "normal_equation_relative": 4.443290482386496e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-256": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 1.600397536646739e-10,
+            "projected_gradient_relative": 2.6114865540725954e-06,
+            "bias_stationarity_relative": 1.4493254766763686e-08,
+            "covariance_min_eigenvalue": 0.0002083363484576687,
+            "covariance_condition_number": 95405.6880574351,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.011355590541477051
+          },
+          {
+            "spectral_optimality_relative": 1.7420986950643818e-09,
+            "projected_gradient_relative": 2.6376844384217676e-06,
+            "bias_stationarity_relative": 1.3653858890842898e-08,
+            "covariance_min_eigenvalue": 0.0003742472401327552,
+            "covariance_condition_number": 144914.1468083049,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.014137643667340877
+          },
+          {
+            "spectral_optimality_relative": 1.550611430931704e-09,
+            "projected_gradient_relative": 2.342801194403136e-06,
+            "bias_stationarity_relative": 1.0574392073436805e-08,
+            "covariance_min_eigenvalue": 0.00020824222735887053,
+            "covariance_condition_number": 257343.09797013877,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.012409003062679879
+          },
+          {
+            "normal_equation_relative": 4.5129815036107774e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-512": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 2.1373485522670915e-10,
+            "projected_gradient_relative": 2.930986899471517e-06,
+            "bias_stationarity_relative": 1.7401501786808255e-08,
+            "covariance_min_eigenvalue": 0.0002083363484576687,
+            "covariance_condition_number": 95405.6880574351,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0009870915621248773
+          },
+          {
+            "spectral_optimality_relative": 1.1526352974159463e-09,
+            "projected_gradient_relative": 3.1709770242951455e-06,
+            "bias_stationarity_relative": 1.2906104250817894e-08,
+            "covariance_min_eigenvalue": 0.0004358246865927497,
+            "covariance_condition_number": 124291.96309919354,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.002534807848008769
+          },
+          {
+            "spectral_optimality_relative": 1.2251170065794249e-09,
+            "projected_gradient_relative": 2.956847457545444e-06,
+            "bias_stationarity_relative": 1.099703493851743e-08,
+            "covariance_min_eigenvalue": 0.00020824222735884093,
+            "covariance_condition_number": 255614.36981584484,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0023642718427537932
+          },
+          {
+            "normal_equation_relative": 4.4955667359485495e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "adamw": {
+        "snapshots": 24,
+        "protocol": "pass"
+      },
+      "dense": {
+        "archived_weight_max_abs": 0.0
+      },
+      "rank-64": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 8.597340067293111e-11,
+            "projected_gradient_relative": 2.3846760275795092e-06,
+            "bias_stationarity_relative": 1.1315064511373761e-08,
+            "covariance_min_eigenvalue": 0.0002083363484576687,
+            "covariance_condition_number": 95405.6880574351,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.06515790280137165
+          },
+          {
+            "spectral_optimality_relative": 5.016189597229295e-09,
+            "projected_gradient_relative": 2.1121229017356117e-06,
+            "bias_stationarity_relative": 1.862353505314973e-08,
+            "covariance_min_eigenvalue": 0.0002399964444371504,
+            "covariance_condition_number": 227440.6641370038,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.05098742264759346
+          },
+          {
+            "spectral_optimality_relative": 4.04636774197552e-09,
+            "projected_gradient_relative": 1.6397344530447613e-06,
+            "bias_stationarity_relative": 1.3514849116328582e-08,
+            "covariance_min_eigenvalue": 0.00020824222735887048,
+            "covariance_condition_number": 266161.2128586457,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.043385514088867025
+          },
+          {
+            "normal_equation_relative": 5.71293047437127e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      }
+    },
+    "3": {
+      "rank-256": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 1.5976996985906078e-10,
+            "projected_gradient_relative": 2.663405943449837e-06,
+            "bias_stationarity_relative": 1.4611357891609294e-08,
+            "covariance_min_eigenvalue": 0.00020940953836917522,
+            "covariance_condition_number": 94773.26605256718,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.01073822599368094
+          },
+          {
+            "spectral_optimality_relative": 1.91567497525759e-09,
+            "projected_gradient_relative": 2.8183471139121603e-06,
+            "bias_stationarity_relative": 1.5459629977919107e-08,
+            "covariance_min_eigenvalue": 0.00021160481290333034,
+            "covariance_condition_number": 254735.55474269998,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.01382396116441024
+          },
+          {
+            "spectral_optimality_relative": 1.4415911468494863e-09,
+            "projected_gradient_relative": 2.1136116282581517e-06,
+            "bias_stationarity_relative": 1.0713376442435496e-08,
+            "covariance_min_eigenvalue": 0.00021524715043202318,
+            "covariance_condition_number": 223381.83347165896,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.011884591775557396
+          },
+          {
+            "normal_equation_relative": 3.885796224708589e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-512": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 2.1351794553155533e-10,
+            "projected_gradient_relative": 2.9705063826934073e-06,
+            "bias_stationarity_relative": 1.8255675287185992e-08,
+            "covariance_min_eigenvalue": 0.00020940953836917522,
+            "covariance_condition_number": 94773.26605256718,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0009234730226144528
+          },
+          {
+            "spectral_optimality_relative": 1.3083471890220498e-09,
+            "projected_gradient_relative": 3.3523569885398257e-06,
+            "bias_stationarity_relative": 1.4180284664799658e-08,
+            "covariance_min_eigenvalue": 0.00021112826802148618,
+            "covariance_condition_number": 254973.0774783788,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0024628535478814113
+          },
+          {
+            "spectral_optimality_relative": 1.0763318731467702e-09,
+            "projected_gradient_relative": 2.737547301799058e-06,
+            "bias_stationarity_relative": 1.0931492775622771e-08,
+            "covariance_min_eigenvalue": 0.0002294491856773817,
+            "covariance_condition_number": 207978.38531760662,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0022156223367452545
+          },
+          {
+            "normal_equation_relative": 3.9601502651193144e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "adamw": {
+        "snapshots": 19,
+        "protocol": "pass"
+      },
+      "dense": {
+        "archived_weight_max_abs": 0.0
+      },
+      "rank-64": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 8.600149802486887e-11,
+            "projected_gradient_relative": 2.4467787806267943e-06,
+            "bias_stationarity_relative": 1.3171323871221434e-08,
+            "covariance_min_eigenvalue": 0.00020940953836917522,
+            "covariance_condition_number": 94773.26605256718,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.06283030877147876
+          },
+          {
+            "spectral_optimality_relative": 5.616948447978652e-09,
+            "projected_gradient_relative": 2.181348785221924e-06,
+            "bias_stationarity_relative": 1.6030217890919172e-08,
+            "covariance_min_eigenvalue": 0.00020932379800027564,
+            "covariance_condition_number": 259244.77281820125,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.050542026204982625
+          },
+          {
+            "spectral_optimality_relative": 3.731021430177056e-09,
+            "projected_gradient_relative": 1.5818115767613461e-06,
+            "bias_stationarity_relative": 1.3124498681278116e-08,
+            "covariance_min_eigenvalue": 0.00020927135388450202,
+            "covariance_condition_number": 238189.43214880506,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.041399151547870945
+          },
+          {
+            "normal_equation_relative": 4.288886012812166e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-128": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 1.1402172283261464e-10,
+            "projected_gradient_relative": 2.5016657449267984e-06,
+            "bias_stationarity_relative": 1.4201744766813272e-08,
+            "covariance_min_eigenvalue": 0.00020940953836917522,
+            "covariance_condition_number": 94773.26605256718,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.03263778627528053
+          },
+          {
+            "spectral_optimality_relative": 3.1417144920189165e-09,
+            "projected_gradient_relative": 2.340235037019268e-06,
+            "bias_stationarity_relative": 1.8944647663969674e-08,
+            "covariance_min_eigenvalue": 0.00021053977761813138,
+            "covariance_condition_number": 256737.33455733216,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.030542952565938298
+          },
+          {
+            "spectral_optimality_relative": 2.162930732865544e-09,
+            "projected_gradient_relative": 1.771366880733112e-06,
+            "bias_stationarity_relative": 1.012651915663943e-08,
+            "covariance_min_eigenvalue": 0.00021143719942682014,
+            "covariance_condition_number": 230768.31249614517,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.02564536371907075
+          },
+          {
+            "normal_equation_relative": 4.036110943360303e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      }
+    },
+    "4": {
+      "rank-512": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 2.1393088748124934e-10,
+            "projected_gradient_relative": 3.1372442250832447e-06,
+            "bias_stationarity_relative": 1.5703663567995e-08,
+            "covariance_min_eigenvalue": 0.0002081377462966125,
+            "covariance_condition_number": 94950.69590682004,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0009850327512669873
+          },
+          {
+            "spectral_optimality_relative": 1.3712563642881887e-09,
+            "projected_gradient_relative": 3.4166887670815878e-06,
+            "bias_stationarity_relative": 1.4023122466806195e-08,
+            "covariance_min_eigenvalue": 0.0005170998624728707,
+            "covariance_condition_number": 111099.36592530964,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0025038141783386143
+          },
+          {
+            "spectral_optimality_relative": 1.1531770140539587e-09,
+            "projected_gradient_relative": 2.9783892038124677e-06,
+            "bias_stationarity_relative": 1.1760649091660692e-08,
+            "covariance_min_eigenvalue": 0.00033090741432117196,
+            "covariance_condition_number": 151599.6138512265,
+            "rank": 512,
+            "weight_numerical_rank": 512,
+            "discarded_energy_fraction": 0.0022805547636628423
+          },
+          {
+            "normal_equation_relative": 4.2820613199899493e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "adamw": {
+        "snapshots": 21,
+        "protocol": "pass"
+      },
+      "dense": {
+        "archived_weight_max_abs": 0.0
+      },
+      "rank-64": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 8.62556774284556e-11,
+            "projected_gradient_relative": 2.6546557257351128e-06,
+            "bias_stationarity_relative": 1.1337067349596362e-08,
+            "covariance_min_eigenvalue": 0.0002081377462966125,
+            "covariance_condition_number": 94950.69590682004,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.06348863055412021
+          },
+          {
+            "spectral_optimality_relative": 6.1342437680124746e-09,
+            "projected_gradient_relative": 2.4669085197600458e-06,
+            "bias_stationarity_relative": 1.3430476524662583e-08,
+            "covariance_min_eigenvalue": 0.00029277660113018265,
+            "covariance_condition_number": 197489.10620114362,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.050896806227959314
+          },
+          {
+            "spectral_optimality_relative": 4.180084797353661e-09,
+            "projected_gradient_relative": 1.8305731743121134e-06,
+            "bias_stationarity_relative": 1.3868945951437422e-08,
+            "covariance_min_eigenvalue": 0.00026957361156517627,
+            "covariance_condition_number": 194087.54227045784,
+            "rank": 64,
+            "weight_numerical_rank": 64,
+            "discarded_energy_fraction": 0.04235470580287359
+          },
+          {
+            "normal_equation_relative": 4.5243647010611756e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-128": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 1.1395883603892548e-10,
+            "projected_gradient_relative": 2.7118160862368166e-06,
+            "bias_stationarity_relative": 1.2070537773082103e-08,
+            "covariance_min_eigenvalue": 0.0002081377462966125,
+            "covariance_condition_number": 94950.69590682004,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.03311589602040273
+          },
+          {
+            "spectral_optimality_relative": 3.3141194863954957e-09,
+            "projected_gradient_relative": 2.3479097915938815e-06,
+            "bias_stationarity_relative": 1.4968649948425968e-08,
+            "covariance_min_eigenvalue": 0.00034993979860771664,
+            "covariance_condition_number": 164700.57860015865,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.03115075740301613
+          },
+          {
+            "spectral_optimality_relative": 2.6171458519945845e-09,
+            "projected_gradient_relative": 2.032868060678065e-06,
+            "bias_stationarity_relative": 1.0590786460684355e-08,
+            "covariance_min_eigenvalue": 0.0002880810613468478,
+            "covariance_condition_number": 178224.89216661925,
+            "rank": 128,
+            "weight_numerical_rank": 128,
+            "discarded_energy_fraction": 0.026071335761412483
+          },
+          {
+            "normal_equation_relative": 4.222930239877793e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      },
+      "rank-256": {
+        "local_objectives": [
+          {
+            "spectral_optimality_relative": 1.5973625434548613e-10,
+            "projected_gradient_relative": 2.8512701262888136e-06,
+            "bias_stationarity_relative": 1.6117006714188912e-08,
+            "covariance_min_eigenvalue": 0.0002081377462966125,
+            "covariance_condition_number": 94950.69590682004,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.011140059058420247
+          },
+          {
+            "spectral_optimality_relative": 2.053561964452227e-09,
+            "projected_gradient_relative": 2.857765585850571e-06,
+            "bias_stationarity_relative": 1.1416794145160254e-08,
+            "covariance_min_eigenvalue": 0.00046221022838140543,
+            "covariance_condition_number": 124433.2573985567,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.01404411764942209
+          },
+          {
+            "spectral_optimality_relative": 1.6706390372873257e-09,
+            "projected_gradient_relative": 2.3857064064937737e-06,
+            "bias_stationarity_relative": 1.2487349288861719e-08,
+            "covariance_min_eigenvalue": 0.00030829164761772614,
+            "covariance_condition_number": 164020.56782989847,
+            "rank": 256,
+            "weight_numerical_rank": 256,
+            "discarded_energy_fraction": 0.012030602320645555
+          },
+          {
+            "normal_equation_relative": 3.7234048923531685e-07
+          }
+        ],
+        "streamed_statistics": "bit-exact"
+      }
+    }
+  },
+  "checked_snapshots": 126,
+  "checked_local_objectives": 80
+}

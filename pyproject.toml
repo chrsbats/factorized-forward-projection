@@ -1,0 +1,27 @@
+[project]
+name = "factorized-forward-projection"
+version = "0.1.0"
+description = "Fashion-MNIST replication of forward projection with jointly fitted reduced-rank factors"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [{ name = "Factorized Forward Projection contributors" }]
+keywords = ["forward projection", "feedback-free learning", "fashion-mnist", "reduced rank"]
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "torch>=2.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/factorized_fp"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

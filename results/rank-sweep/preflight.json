@@ -1,0 +1,100 @@
+{
+  "cpu": {
+    "pass": true,
+    "device": "cpu",
+    "dtype": "torch.float64",
+    "fixtures": [
+      {
+        "fixture": 0,
+        "objective": 8.292517960986839,
+        "direct_optimized_objective": 8.292517960987054,
+        "optimizer_success": true,
+        "optimizer_iterations": 102,
+        "objective_relative_difference": 2.5919651736497632e-14,
+        "full_rank_relative": 8.167559421914637e-16,
+        "full_rank_normal_equation_relative": 1.8995558656514487e-16,
+        "bias_stationarity_relative": 5.632206808311059e-17,
+        "whitened_reconstruction_relative": 1.4425008025063525e-16,
+        "spectral_optimality_relative": 1.4763131949695275e-17,
+        "tolerance": 1e-09
+      },
+      {
+        "fixture": 1,
+        "objective": 7.821280331358369,
+        "direct_optimized_objective": 7.821280331358556,
+        "optimizer_success": true,
+        "optimizer_iterations": 60,
+        "objective_relative_difference": 2.3960993420137206e-14,
+        "full_rank_relative": 7.516105915263231e-16,
+        "full_rank_normal_equation_relative": 4.627811984795731e-16,
+        "bias_stationarity_relative": 5.911144686370789e-17,
+        "whitened_reconstruction_relative": 2.3065977696119896e-16,
+        "spectral_optimality_relative": 2.0129611337588566e-17,
+        "tolerance": 1e-09
+      },
+      {
+        "fixture": 2,
+        "objective": 7.603999206229657,
+        "direct_optimized_objective": 7.6039992062299175,
+        "optimizer_success": true,
+        "optimizer_iterations": 69,
+        "objective_relative_difference": 3.422360654100744e-14,
+        "full_rank_relative": 4.771957275742295e-16,
+        "full_rank_normal_equation_relative": 1.369564950755873e-16,
+        "bias_stationarity_relative": 4.516973715693275e-17,
+        "whitened_reconstruction_relative": 1.473417438721865e-16,
+        "spectral_optimality_relative": 9.211105670066079e-18,
+        "tolerance": 1e-09
+      }
+    ]
+  },
+  "cuda": {
+    "pass": true,
+    "device": "cuda:0",
+    "dtype": "torch.float32",
+    "fixtures": [
+      {
+        "fixture": 0,
+        "objective": 8.29251796098721,
+        "direct_optimized_objective": 8.292517960987054,
+        "optimizer_success": true,
+        "optimizer_iterations": 102,
+        "objective_relative_difference": 1.885065580836107e-14,
+        "full_rank_relative": 3.0711594555551493e-07,
+        "full_rank_normal_equation_relative": 7.702630303056946e-08,
+        "bias_stationarity_relative": 2.70201157007407e-08,
+        "whitened_reconstruction_relative": 3.954316341037156e-08,
+        "spectral_optimality_relative": 3.4345557509141145e-08,
+        "tolerance": 2e-05
+      },
+      {
+        "fixture": 1,
+        "objective": 7.821280331360484,
+        "direct_optimized_objective": 7.821280331358556,
+        "optimizer_success": true,
+        "optimizer_iterations": 60,
+        "objective_relative_difference": 2.4642348683262405e-13,
+        "full_rank_relative": 7.570187236333721e-07,
+        "full_rank_normal_equation_relative": 1.2331336666258956e-07,
+        "bias_stationarity_relative": 3.882159865707361e-08,
+        "whitened_reconstruction_relative": 7.225731479820752e-08,
+        "spectral_optimality_relative": 1.6210526254667457e-08,
+        "tolerance": 2e-05
+      },
+      {
+        "fixture": 2,
+        "objective": 7.6039992062301955,
+        "direct_optimized_objective": 7.6039992062299175,
+        "optimizer_success": true,
+        "optimizer_iterations": 69,
+        "objective_relative_difference": 3.6559688898752805e-14,
+        "full_rank_relative": 3.9092507925671415e-07,
+        "full_rank_normal_equation_relative": 8.401529464664088e-08,
+        "bias_stationarity_relative": 1.6419965978585865e-08,
+        "whitened_reconstruction_relative": 6.944331687464e-08,
+        "spectral_optimality_relative": 1.978070862662662e-08,
+        "tolerance": 2e-05
+      }
+    ]
+  }
+}

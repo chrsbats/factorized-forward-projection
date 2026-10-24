@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+<rect width="100%" height="100%" fill="white"/>
+<text x="70" y="25" font-size="18">Test accuracy vs hidden-map rank (mean +/- sample SD)</text>
+<path d="M70,340.00 H740" stroke="#ddd"/>
+<text x="60" y="344.00" text-anchor="end">75%</text>
+<path d="M70,246.67 H740" stroke="#ddd"/>
+<text x="60" y="250.67" text-anchor="end">80%</text>
+<path d="M70,153.33 H740" stroke="#ddd"/>
+<text x="60" y="157.33" text-anchor="end">85%</text>
+<path d="M70,60.00 H740" stroke="#ddd"/>
+<text x="60" y="64.00" text-anchor="end">90%</text>
+<path d="M70,129.44 H740" stroke="#444" stroke-dasharray="6 4"/>
+<text x="550" y="121.44">Dense 86.28%</text>
+<path d="M140,127.87 V121.98" stroke="#c92a2a" stroke-width="2"/>
+<circle cx="140" cy="124.92" r="5" fill="#c92a2a"/>
+<text x="140" y="370" text-anchor="middle">rank-64</text>
+<text x="140" y="112.92" text-anchor="middle">86.52%</text>
+<path d="M320,124.05 V119.30" stroke="#c92a2a" stroke-width="2"/>
+<circle cx="320" cy="121.67" r="5" fill="#c92a2a"/>
+<text x="320" y="370" text-anchor="middle">rank-128</text>
+<text x="320" y="109.67" text-anchor="middle">86.70%</text>
+<path d="M500,129.68 V120.84" stroke="#c92a2a" stroke-width="2"/>
+<circle cx="500" cy="125.26" r="5" fill="#c92a2a"/>
+<text x="500" y="370" text-anchor="middle">rank-256</text>
+<text x="500" y="113.26" text-anchor="middle">86.50%</text>
+<path d="M680,129.97 V125.40" stroke="#c92a2a" stroke-width="2"/>
+<circle cx="680" cy="127.69" r="5" fill="#c92a2a"/>
+<text x="680" y="370" text-anchor="middle">rank-512</text>
+<text x="680" y="115.69" text-anchor="middle">86.37%</text>
+</svg>

@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="500" viewBox="0 0 1080 500">
+<rect width="100%" height="100%" fill="white"/>
+<defs><clipPath id="plot"><rect x="85" y="60" width="880" height="330"/></clipPath></defs>
+<text x="85" y="28" font-size="17">Validation accuracy: raw checkpoints, 82-92% zoom</text>
+<path d="M85.00,60 V390 M85,390.00 H965" fill="none" stroke="#ddd"/>
+<text x="85.00" y="413" text-anchor="middle">0.063</text>
+<text x="74" y="394.00" text-anchor="end">82%</text>
+<path d="M261.00,60 V390 M85,324.00 H965" fill="none" stroke="#ddd"/>
+<text x="261.00" y="413" text-anchor="middle">0.283</text>
+<text x="74" y="328.00" text-anchor="end">84%</text>
+<path d="M437.00,60 V390 M85,258.00 H965" fill="none" stroke="#ddd"/>
+<text x="437.00" y="413" text-anchor="middle">1.27</text>
+<text x="74" y="262.00" text-anchor="end">86%</text>
+<path d="M613.00,60 V390 M85,192.00 H965" fill="none" stroke="#ddd"/>
+<text x="613.00" y="413" text-anchor="middle">5.69</text>
+<text x="74" y="196.00" text-anchor="end">88%</text>
+<path d="M789.00,60 V390 M85,126.00 H965" fill="none" stroke="#ddd"/>
+<text x="789.00" y="413" text-anchor="middle">25.5</text>
+<text x="74" y="130.00" text-anchor="end">90%</text>
+<path d="M965.00,60 V390 M85,60.00 H965" fill="none" stroke="#ddd"/>
+<text x="965.00" y="413" text-anchor="middle">114</text>
+<text x="74" y="64.00" text-anchor="end">92%</text>
+<polyline points="251.97,2923.62 421.59,655.95 490.73,476.61 530.77,428.43 562.44,573.80 586.12,309.24 605.56,317.59 622.50,289.75 637.60,289.19 682.72,256.89 715.83,248.81 741.33,281.67 762.14,197.29 780.17,199.80 795.64,207.87 809.58,197.01 821.84,218.73 832.99,180.30 842.79,203.42" stroke="#1864ab" fill="none" opacity=".55" clip-path="url(#plot)"/>
+<circle cx="251.97" cy="2923.62" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="421.59" cy="655.95" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="490.73" cy="476.61" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="530.77" cy="428.43" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="562.44" cy="573.80" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="586.12" cy="309.24" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="605.56" cy="317.59" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="622.50" cy="289.75" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="637.60" cy="289.19" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="682.72" cy="256.89" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="715.83" cy="248.81" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="741.33" cy="281.67" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="762.14" cy="197.29" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="780.17" cy="199.80" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="795.64" cy="207.87" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="809.58" cy="197.01" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="821.84" cy="218.73" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="832.99" cy="180.30" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="842.79" cy="203.42" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<polyline points="161.04,2756.25 387.85,411.72 460.31,444.86 504.97,326.51 537.87,448.76 563.35,265.80 584.02,257.44 600.96,237.95 616.14,247.14 658.66,234.33 689.77,209.82 714.55,237.39 735.06,168.61 752.47,160.81 767.69,160.25 780.67,152.46 792.74,151.34 803.51,158.30 813.12,145.49" stroke="#888888" fill="none" opacity=".55" clip-path="url(#plot)"/>
+<circle cx="161.04" cy="2756.25" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="387.85" cy="411.72" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="460.31" cy="444.86" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="504.97" cy="326.51" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="537.87" cy="448.76" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="563.35" cy="265.80" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="584.02" cy="257.44" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="600.96" cy="237.95" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="616.14" cy="247.14" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="658.66" cy="234.33" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="689.77" cy="209.82" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="714.55" cy="237.39" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="735.06" cy="168.61" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="752.47" cy="160.81" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="767.69" cy="160.25" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="780.67" cy="152.46" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="792.74" cy="151.34" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="803.51" cy="158.30" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="813.12" cy="145.49" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="411.15" cy="196.18" r="4" fill="#e67700" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="353.02" cy="207.87" r="4" fill="#222222" opacity=".7" clip-path="url(#plot)"/>
+<polyline points="123.71,2775.09 397.30,519.08 475.18,432.06 521.55,471.04 554.72,416.69 581.01,326.65 602.14,325.00 619.95,357.39 635.02,334.88 679.39,312.65 711.97,327.47 738.07,255.27 760.06,211.62 778.52,236.88 793.46,192.41 807.09,196.80 819.96,237.43 831.68,194.05 841.92,202.84 851.12,178.95 859.79,206.96 867.89,205.03 875.60,191.86" stroke="#1864ab" fill="none" opacity=".55" clip-path="url(#plot)"/>
+<circle cx="123.71" cy="2775.09" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="397.30" cy="519.08" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="475.18" cy="432.06" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="521.55" cy="471.04" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="554.72" cy="416.69" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="581.01" cy="326.65" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="602.14" cy="325.00" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="619.95" cy="357.39" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="635.02" cy="334.88" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="679.39" cy="312.65" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="711.97" cy="327.47" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="738.07" cy="255.27" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="760.06" cy="211.62" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="778.52" cy="236.88" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="793.46" cy="192.41" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="807.09" cy="196.80" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="819.96" cy="237.43" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="831.68" cy="194.05" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="841.92" cy="202.84" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="851.12" cy="178.95" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="859.79" cy="206.96" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="867.89" cy="205.03" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="875.60" cy="191.86" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<polyline points="154.85,2759.44 384.61,414.77 460.39,325.55 503.84,348.61 536.68,266.53 562.53,300.57 583.19,281.35 600.82,249.51 615.65,266.25 658.35,234.96 689.06,258.57 713.18,189.11 734.13,163.58 751.22,168.52 766.13,156.72 779.30,166.60 790.92,153.70 801.64,173.19" stroke="#888888" fill="none" opacity=".55" clip-path="url(#plot)"/>
+<circle cx="154.85" cy="2759.44" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="384.61" cy="414.77" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="460.39" cy="325.55" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="503.84" cy="348.61" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="536.68" cy="266.53" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="562.53" cy="300.57" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="583.19" cy="281.35" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="600.82" cy="249.51" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="615.65" cy="266.25" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="658.35" cy="234.96" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="689.06" cy="258.57" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="713.18" cy="189.11" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="734.13" cy="163.58" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="751.22" cy="168.52" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="766.13" cy="156.72" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="779.30" cy="166.60" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="790.92" cy="153.70" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="801.64" cy="173.19" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="422.24" cy="216.01" r="4" fill="#e67700" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="299.97" cy="226.45" r="4" fill="#222222" opacity=".7" clip-path="url(#plot)"/>
+<polyline points="118.01,2584.15 413.53,712.25 487.48,438.70 533.37,407.85 564.72,419.42 589.07,377.27 610.91,340.90 628.79,311.70 643.54,312.80 687.25,276.99 718.63,256.06 743.77,286.63 764.52,234.02 782.02,201.79 797.04,221.90 810.76,208.12 822.90,210.33 833.71,226.58 844.00,227.68 853.40,197.65 861.99,216.11" stroke="#1864ab" fill="none" opacity=".55" clip-path="url(#plot)"/>
+<circle cx="118.01" cy="2584.15" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="413.53" cy="712.25" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="487.48" cy="438.70" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="533.37" cy="407.85" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="564.72" cy="419.42" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="589.07" cy="377.27" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="610.91" cy="340.90" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="628.79" cy="311.70" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="643.54" cy="312.80" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="687.25" cy="276.99" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="718.63" cy="256.06" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="743.77" cy="286.63" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="764.52" cy="234.02" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="782.02" cy="201.79" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="797.04" cy="221.90" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="810.76" cy="208.12" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="822.90" cy="210.33" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="833.71" cy="226.58" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="844.00" cy="227.68" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="853.40" cy="197.65" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="861.99" cy="216.11" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<polyline points="160.27,2698.75 385.08,405.09 459.33,324.10 504.74,312.25 536.58,404.54 561.28,348.89 582.62,267.63 600.66,261.01 616.08,235.12 659.27,254.95 690.24,224.37 715.55,192.42 736.16,191.59 753.53,184.43 768.12,170.93 781.27,173.96 793.13,176.44 803.84,148.07 813.83,152.20 823.10,164.87 831.66,197.38 839.72,183.60 847.17,183.60 853.88,151.92" stroke="#888888" fill="none" opacity=".55" clip-path="url(#plot)"/>
+<circle cx="160.27" cy="2698.75" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="385.08" cy="405.09" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="459.33" cy="324.10" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="504.74" cy="312.25" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="536.58" cy="404.54" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="561.28" cy="348.89" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="582.62" cy="267.63" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="600.66" cy="261.01" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="616.08" cy="235.12" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="659.27" cy="254.95" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="690.24" cy="224.37" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="715.55" cy="192.42" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="736.16" cy="191.59" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="753.53" cy="184.43" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="768.12" cy="170.93" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="781.27" cy="173.96" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="793.13" cy="176.44" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="803.84" cy="148.07" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="813.83" cy="152.20" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="823.10" cy="164.87" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="831.66" cy="197.38" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="839.72" cy="183.60" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="847.17" cy="183.60" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="853.88" cy="151.92" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="426.33" cy="216.11" r="4" fill="#e67700" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="302.66" cy="227.68" r="4" fill="#222222" opacity=".7" clip-path="url(#plot)"/>
+<polyline points="112.00,2752.47 404.71,522.22 480.31,459.02 528.96,369.36 560.69,319.40 584.91,419.32 606.19,325.88 624.26,302.11 640.13,303.46 683.99,262.95 716.24,261.60 741.45,204.35 761.79,213.80 779.26,239.19 794.52,227.84 808.40,191.11 820.32,184.90 831.47,184.09 842.28,198.41 851.65,191.65 860.33,183.82 868.35,164.92 875.79,188.14 883.21,174.10 890.11,153.84 896.62,159.79 902.72,175.99 908.62,139.80 914.14,137.64 919.24,153.84 924.09,148.71 928.88,166.27 933.62,167.62 938.00,140.88" stroke="#1864ab" fill="none" opacity=".55" clip-path="url(#plot)"/>
+<circle cx="112.00" cy="2752.47" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="404.71" cy="522.22" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="480.31" cy="459.02" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="528.96" cy="369.36" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="560.69" cy="319.40" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="584.91" cy="419.32" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="606.19" cy="325.88" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="624.26" cy="302.11" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="640.13" cy="303.46" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="683.99" cy="262.95" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="716.24" cy="261.60" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="741.45" cy="204.35" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="761.79" cy="213.80" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="779.26" cy="239.19" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="794.52" cy="227.84" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="808.40" cy="191.11" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="820.32" cy="184.90" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="831.47" cy="184.09" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="842.28" cy="198.41" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="851.65" cy="191.65" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="860.33" cy="183.82" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="868.35" cy="164.92" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="875.79" cy="188.14" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="883.21" cy="174.10" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="890.11" cy="153.84" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="896.62" cy="159.79" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="902.72" cy="175.99" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="908.62" cy="139.80" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="914.14" cy="137.64" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="919.24" cy="153.84" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="924.09" cy="148.71" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="928.88" cy="166.27" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="933.62" cy="167.62" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="938.00" cy="140.88" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<polyline points="152.47,2748.15 381.93,475.77 455.86,397.18 502.09,272.68 535.27,249.45 560.12,326.42 581.46,247.56 598.86,233.79 614.00,242.97 656.70,225.95 687.48,178.69 711.17,199.22 731.39,240.81 748.39,162.22 763.78,153.57 777.30,161.95 789.81,156.55 801.36,155.19 811.42,168.97" stroke="#888888" fill="none" opacity=".55" clip-path="url(#plot)"/>
+<circle cx="152.47" cy="2748.15" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="381.93" cy="475.77" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="455.86" cy="397.18" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="502.09" cy="272.68" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="535.27" cy="249.45" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="560.12" cy="326.42" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="581.46" cy="247.56" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="598.86" cy="233.79" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="614.00" cy="242.97" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="656.70" cy="225.95" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="687.48" cy="178.69" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="711.17" cy="199.22" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="731.39" cy="240.81" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="748.39" cy="162.22" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="763.78" cy="153.57" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="777.30" cy="161.95" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="789.81" cy="156.55" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="801.36" cy="155.19" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="811.42" cy="168.97" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="415.91" cy="194.63" r="4" fill="#e67700" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="290.48" cy="210.02" r="4" fill="#222222" opacity=".7" clip-path="url(#plot)"/>
+<polyline points="118.82,2759.67 410.85,520.39 487.15,595.62 529.34,426.35 561.38,395.92 586.96,295.25 607.55,277.54 624.63,481.94 639.44,293.86 684.57,258.18 716.90,249.61 743.51,278.65 764.40,213.10 782.25,246.01 797.85,183.23 811.45,248.50 823.40,238.82 834.22,170.23 844.37,203.69 853.55,193.18" stroke="#1864ab" fill="none" opacity=".55" clip-path="url(#plot)"/>
+<circle cx="118.82" cy="2759.67" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="410.85" cy="520.39" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="487.15" cy="595.62" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="529.34" cy="426.35" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="561.38" cy="395.92" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="586.96" cy="295.25" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="607.55" cy="277.54" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="624.63" cy="481.94" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="639.44" cy="293.86" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="684.57" cy="258.18" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="716.90" cy="249.61" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="743.51" cy="278.65" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="764.40" cy="213.10" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="782.25" cy="246.01" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="797.85" cy="183.23" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="811.45" cy="248.50" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="823.40" cy="238.82" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="834.22" cy="170.23" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="844.37" cy="203.69" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="853.55" cy="193.18" r="2" fill="#1864ab" opacity=".7" clip-path="url(#plot)"/>
+<polyline points="160.94,2987.58 394.64,367.16 467.14,372.14 510.16,309.35 541.66,359.14 567.65,292.20 587.40,245.18 604.49,246.84 619.32,248.50 663.01,218.91 693.84,179.08 717.23,196.78 736.14,167.18 753.41,200.65 768.13,164.97 781.44,158.61 793.19,178.52 803.77,175.76 813.63,160.27 822.72,156.12 831.08,155.29" stroke="#888888" fill="none" opacity=".55" clip-path="url(#plot)"/>
+<circle cx="160.94" cy="2987.58" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="394.64" cy="367.16" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="467.14" cy="372.14" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="510.16" cy="309.35" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="541.66" cy="359.14" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="567.65" cy="292.20" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="587.40" cy="245.18" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="604.49" cy="246.84" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="619.32" cy="248.50" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="663.01" cy="218.91" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="693.84" cy="179.08" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="717.23" cy="196.78" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="736.14" cy="167.18" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="753.41" cy="200.65" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="768.13" cy="164.97" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="781.44" cy="158.61" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="793.19" cy="178.52" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="803.77" cy="175.76" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="813.63" cy="160.27" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="822.72" cy="156.12" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="831.08" cy="155.29" r="2" fill="#888888" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="438.50" cy="214.48" r="4" fill="#e67700" opacity=".7" clip-path="url(#plot)"/>
+<circle cx="299.63" cy="219.46" r="4" fill="#222222" opacity=".7" clip-path="url(#plot)"/>
+<text x="525" y="447" text-anchor="middle">Cumulative method-specific seconds (log scale; construction, training, scoring and snapshots)</text>
+<text x="85" y="480" fill="#1864ab">rank128-adamw</text>
+<text x="310" y="480" fill="#888888">dense-adamw</text>
+<text x="535" y="480" fill="#e67700">rank128-fp</text>
+<text x="760" y="480" fill="#222222">dense-fp</text>
+</svg>

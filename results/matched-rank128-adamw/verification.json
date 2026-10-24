@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "new_checkpoints": 117,
+  "reused_checkpoints": 111,
+  "folds": {
+    "0": {
+      "new_checkpoints": 19,
+      "initialization": "bit-exact",
+      "stop": "validation-patience",
+      "epochs": 12
+    },
+    "1": {
+      "new_checkpoints": 23,
+      "initialization": "bit-exact",
+      "stop": "validation-patience",
+      "epochs": 16
+    },
+    "2": {
+      "new_checkpoints": 21,
+      "initialization": "bit-exact",
+      "stop": "validation-patience",
+      "epochs": 14
+    },
+    "3": {
+      "new_checkpoints": 34,
+      "initialization": "bit-exact",
+      "stop": "validation-patience",
+      "epochs": 27
+    },
+    "4": {
+      "new_checkpoints": 20,
+      "initialization": "bit-exact",
+      "stop": "validation-patience",
+      "epochs": 13
+    }
+  },
+  "immutable_reference_hashes": "unchanged"
+}

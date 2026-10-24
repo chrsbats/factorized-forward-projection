@@ -1,0 +1,97 @@
+{
+  "status": "success",
+  "config": {
+    "output": null,
+    "device": "cuda:0",
+    "smoke": false,
+    "seed": 0,
+    "width": 1000,
+    "ranks": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "fit_batch": 1024,
+    "eval_batch": 4096,
+    "batch_size": 50,
+    "max_epochs": 100,
+    "patience": 5,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "data": "$ORIGINAL_REPO/data/fashion-mnist",
+    "reference": "$ORIGINAL_REPO/results/fp-fashion/20261016T023123Z-33526c7b",
+    "host_limit_bytes": 12884901888,
+    "gpu_limit_bytes": 3221225472,
+    "artifact_limit_bytes": 16106127360,
+    "max_seconds": 3600
+  },
+  "folds": {
+    "0": {
+      "directory": "fold-0",
+      "arms": [
+        "dense",
+        "rank-64",
+        "rank-128",
+        "rank-256",
+        "rank-512",
+        "adamw"
+      ]
+    },
+    "1": {
+      "directory": "fold-1",
+      "arms": [
+        "rank-64",
+        "rank-128",
+        "rank-256",
+        "rank-512",
+        "adamw",
+        "dense"
+      ]
+    },
+    "2": {
+      "directory": "fold-2",
+      "arms": [
+        "rank-128",
+        "rank-256",
+        "rank-512",
+        "adamw",
+        "dense",
+        "rank-64"
+      ]
+    },
+    "3": {
+      "directory": "fold-3",
+      "arms": [
+        "rank-256",
+        "rank-512",
+        "adamw",
+        "dense",
+        "rank-64",
+        "rank-128"
+      ]
+    },
+    "4": {
+      "directory": "fold-4",
+      "arms": [
+        "rank-512",
+        "adamw",
+        "dense",
+        "rank-64",
+        "rank-128",
+        "rank-256"
+      ]
+    }
+  },
+  "startup_seconds": 33.68710981000913,
+  "preflight_seconds": 0.6758708299894352,
+  "data_seconds": 1.134447738993913,
+  "wall_seconds": 252.36766702400928
+}
